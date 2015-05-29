@@ -1,6 +1,5 @@
 web:
   build: .
-  # environment:
   working_dir: /data
   command: python app.py
   links:
