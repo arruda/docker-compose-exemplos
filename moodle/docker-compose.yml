@@ -1,0 +1,7 @@
+moodle:
+  build: .
+  environment:
+    - VIRTUAL_HOST=localhost
+  ports:
+    - "80:80"
+    - "22:22"
